@@ -6,13 +6,12 @@ import About from "./pages/About me/AboutMe";
 import Header from "./pages/Header/Header";
 import Footer from "./pages/Footer/Footer";
 
-
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Nav />
         <Header />
+        <Nav />
         <About />
         <Experience />
         <Projects />

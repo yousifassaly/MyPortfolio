@@ -1,4 +1,4 @@
-import experience from "../experience/experience.scss"
+import"./experience.css"
 
 export default function Experience () {
     return (

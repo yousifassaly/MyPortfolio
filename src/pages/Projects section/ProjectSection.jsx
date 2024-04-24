@@ -1,4 +1,4 @@
-import projectSection from "../Projects section/projectSection.scss"
+import  "./projectSection.css"
 
 export default function Projects () {
     return (
