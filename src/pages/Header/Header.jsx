@@ -1,6 +1,6 @@
 import "./header.css"
 import { CTA } from "./CTA"
-import ME from "../../assets/me.png"
+import ME from "../../assets/result (3).png"
 import { HeadSocials } from "./HeadSocials"
 
 

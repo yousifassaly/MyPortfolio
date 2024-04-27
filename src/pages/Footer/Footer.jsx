@@ -8,8 +8,8 @@ import { FaRegCopyright } from "react-icons/fa6";
 
 export default function Footer() {
     return (
-        <Footer> 
-            <a href="#" className="footer_logo">Yousif</a>
+        <footer> 
+            <a href="#" className="footer_logo">Yousif Assaly</a>
 
             <ul className="permalinks">
                 <li><a href="#">Home</a></li>
@@ -28,6 +28,6 @@ export default function Footer() {
             <div className="footer_copyright">
                 <small>Yousif Assaly. All rights reserved. <FaRegCopyright /></small>
             </div>
-        </Footer>
+        </footer>
     )
 }

@@ -1,5 +1,5 @@
 import "./aboutme.css"
-import ME from "../../assets/me-about.jpg"
+import ME from "../../assets/me55.jpg"
 import { RiHtml5Line } from "react-icons/ri";
 import { IoLogoCss3 } from "react-icons/io5";
 import { TbBrandJavascript } from "react-icons/tb";
@@ -51,9 +51,13 @@ export default function About () {
                         </div>
 
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Delectus beatae sunt nisi animi esse accusamus inventore! 
-                            Beatae veritatis aut autem porro doloremque optio, repellendus ad quas nostrum ullam libero pariatur.
+                        Hello! I'm Yousif, an aspiring software developer with a passion for building and exploring new technologies.
+                        Currently, I am honing my skills in HTML,CSS, React, JavaScript, Node.js, And still improving for more!
+                        and I am eager to apply my knowledge in practical projects. I thrive on challenge and continuous learning,
+                        and I am always on the lookout for opportunities to innovate and enhance my abilities.
+                        My goal is to develop software solutions that are not only effective but also user-friendly and impactful. 
+                        Whether working on individual projects or collaborating in teams,
+                        I bring a detail-oriented and problem-solving approach to ensure we achieve the best outcomes. Let's connect and create something amazing together!
                         </p>
 
                             <a href="#Contact" className="btn btn-primary">Let's Connect</a>
