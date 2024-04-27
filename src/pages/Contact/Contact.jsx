@@ -13,7 +13,7 @@ export default function Contact () {
       e.preventDefault();
   
       
-       emailjs.sendForm('service_s30h6fo', 'template_hqpgjud', form.current, {PublicKey: 'FPvHE5ZY3vPZ0jaoP'})
+       emailjs.sendForm('service_xpako73', 'template_yph8lhs', form.current, {publicKey: 'FPvHE5ZY3vPZ0jaoP'})
         .then(
           () => {
             console.log('SUCCESS!');

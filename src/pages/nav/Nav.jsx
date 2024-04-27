@@ -11,9 +11,9 @@ export default function Nav () {
     return (
         <nav>
             <a href="#" onClick={() => setActiveNav('#')} className={activeNav === "#" ? 'active' : ''}><IoHome /></a>
-            <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === "#about" ? 'active' : ''}><FaUserAstronaut /></a>
-            <a href="#projects" onClick={() => setActiveNav('#projects')} className={activeNav === "#projects" ? 'active' : ''}><SiOpenproject /></a>
-            <a href="#contact" onClick={() => setActiveNav('#Contact')} className={activeNav === "#Contact" ? 'active' : ''}><GrContact /></a>
+            <a href="#about" onClick={() => setActiveNav('about')} className={activeNav === "about" ? 'active' : ''}><FaUserAstronaut /></a>
+            <a href="#projects" onClick={() => setActiveNav('projects')} className={activeNav === "projects" ? 'active' : ''}><SiOpenproject /></a>
+            <a href="#contact" onClick={() => setActiveNav('Contact')} className={activeNav === "Contact" ? 'active' : ''}><GrContact /></a>
         </nav>
     )
 }
