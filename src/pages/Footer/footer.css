@@ -1,5 +1,5 @@
 footer {
-    background: rgb(91, 182, 243);
+    background: var(--color-bg-variant);
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -7,7 +7,7 @@ footer {
 }
 
 footer a {
-    color: var(--color-bg);
+    color: var(--color-white);
 }
 
 .footer_logo {
@@ -33,7 +33,7 @@ footer a {
 }
 
 .Social_media a {
-    background: var(--color-bg);
+    background: var(--color-primary-variant);
     color: var(--color-white);
     align-items: center;
     gap: .5rem;
@@ -45,13 +45,13 @@ footer a {
 
 .Social_media a:hover {
     background: transparent;
-    color: var(--color-bg);
-    border-color: var(--color-bg);
+    color: var(--color-white);
+    border-color: var(--color-primary-variant);
 }
 
 .footer_copyright {
     margin-bottom: 4rem;
-    color: var(--color-bg);
+    color: var(--color-white);
 }
 
 
