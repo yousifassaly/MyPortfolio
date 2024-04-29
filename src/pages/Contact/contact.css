@@ -5,6 +5,10 @@
     gap: 12%;
 }
 
+.contact_title {
+    color: var(--color-white);
+}
+
 .contact_options {
     display: flex;
     flex-direction: column;
