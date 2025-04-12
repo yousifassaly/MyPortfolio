@@ -1,5 +1,5 @@
 import "./aboutme.css"
-import ME from "../../assets/me55.jpg"
+import ME from "../../assets/profileme.jpg"
 import { RiHtml5Line } from "react-icons/ri";
 import { IoLogoCss3 } from "react-icons/io5";
 import { TbBrandJavascript } from "react-icons/tb";
@@ -24,26 +24,27 @@ export default function About () {
                             
                             <article className="about_card">
                                 <RiHtml5Line className="about_ icon" />
-                                <h5>HTML5</h5>
-                                <small>Front End</small>
-                            </article>
-                            
-                            <article className="about_card">
-                                <IoLogoCss3 className="about_ icon" />
-                                <h5>CSS</h5>
+                                <h5>HTML5 & CSS</h5>
                                 <small>Front End</small>
                             </article>
 
                             <article className="about_card">
                                 <TbBrandJavascript className="about_ icon" />
-                                <h5>JavaScript</h5>
+                                <h5>JavaScript & React</h5>
+                                <small>Coding </small>
+                            </article>
+                            
+                            <article className="about_card">
+                                <IoLogoCss3 className="about_ icon" />
+                                <h5></h5>
                                 <small>Front End</small>
                             </article>
 
+
                             <article className="about_card">
                                 <FaReact className="about_ icon" />
-                                <h5>React</h5>
-                                <small>Front End</small>
+                                <h5>Python</h5>
+                                <small>Coding</small>
                             </article>
                             
 
