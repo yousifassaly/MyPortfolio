@@ -1,5 +1,5 @@
 import  "./projectSection.css"
-import img1 from "../../assets/portfolio1.jpg"
+import img1 from "../../assets/TryHackme.jpg"
 import img2 from "../../assets/portfolio2.jpg"
 import img3 from "../../assets/portfolio3.jpg"
 import img4 from "../../assets/portfolio4.jpg"
@@ -11,7 +11,7 @@ export default function Projects () {
     return (
         <section id="projects">
             <h5>My Recent Work</h5>
-            <h2 className="project_title">Portfolio</h2>
+            <h2 className="project_title">Projects</h2>
 
             <div className="container portfolio_container">
                 <article className="portfolio_item">
@@ -19,10 +19,10 @@ export default function Projects () {
                         <img src={img1} alt="" />
 
                     </div>
-                        <h3>This is a portfolio item title</h3>
+                        <h3>Check Out My Tryhackme</h3>
                             <div className="portfolio_item_cta">
                                 <a href="http://github.com" className="btn">Github</a>
-                                <a href="http://github.com" className="btn btn-primary" target="_blank">Live Demo</a>
+                                <a href="https://tryhackme.com/p/yousifassaly0" className="btn btn-primary" target="_blank">Go There</a>
                             </div>
                 </article>
 

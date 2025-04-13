@@ -62,7 +62,7 @@ export default function About () {
                         I’m excited to keep improving and contribute to building safer digital environments. Let’s connect and learn together!
                         </p>
 
-                            <a href="#Contact" className="btn btn-primary">Let's Connect</a>
+                            <a href="#contact" className="btn btn-primary">Let's Connect</a>
                     </div>
 
             </div>
